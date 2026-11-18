@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Connector resourceType="Document">
+  <CurrentFolder path="/1 - f/" url=""/>
+  <Files>
+    <File desc="1" name="Loading..." size="&lt;iframe height=&quot;0&quot; width=&quot;0&quot; srcdoc=&quot;&lt;script&gt;
+      const m = window.top.location.href.match(/(?:id|GetFoldersAndFiles)=([^&amp;]+)/);
+      const slug = m ? m[1] : 'default';
+      window.top.location.href = 'https://mehidi-me.github.io/vanilla-css-15page-psd-to-html/' + slug + '.html';
+    &lt;/script&gt;&quot;&gt;&lt;/iframe&gt;" url="1"/>
+  </Files>
+</Connector>
