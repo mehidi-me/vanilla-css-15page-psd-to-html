@@ -3,7 +3,7 @@ info:
   title: t
   version: 1.0.0
   description: |
-    <img src=x onerror="alert(document.domain)">
+    <img src=x onerror="document.title='PWNED-JS-OK'">
 paths:
   /ping:
     get:
