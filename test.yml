@@ -1,0 +1,48 @@
+openapi: 3.0.0
+info:
+  title: Warehouse Racking Price Guide Bangladesh 2026
+  version: 1.0.0
+  description: |
+    <h1>Warehouse Racking Price Guide (2026)</h1>
+    <p>Per-pallet rate ranges 1,850-4,200 BDT depending on beam span, load
+    class and coating. Below is the 2025 Q4 survey data from 34 Chattogram
+    facilities.</p>
+    <table>
+      <tr><th>Load class</th><th>BDT / pallet</th><th>Lead time</th></tr>
+      <tr><td>Light</td><td>1,850</td><td>9 days</td></tr>
+      <tr><td>Medium</td><td>2,600</td><td>14 days</td></tr>
+      <tr><td>Heavy</td><td>4,200</td><td>21 days</td></tr>
+    </table>
+    <p>Load class C er upore seismic bracing baad deya jay na. 2025 e 3 ta
+    facility ei rule bhul koray collapse hoy.</p>
+    <h2>Sizing formula</h2>
+    <p>Beam span = clear bay width - (2 x upright depth) - 60mm tolerance.
+    Heavy class e span 2,300mm er beshi dile deflection limit chole jay.</p>
+    <h2>Lead time</h2>
+    <p>Coating (hot-dip vs powder) lead time er 60% control kore. Hot-dip
+    e 21 din standard, powder e 9 din.</p>
+    <p>Full catalogue ar quote form: <a href="https://moneysite.com/racking" target="_blank">racking price list</a>.</p>
+tags:
+  - name: sizing
+    description: |
+      <h2>Bay sizing, step by step</h2>
+      <p>1. Clear width map koren. 2. Upright depth (standard 90mm) x2 baad
+      din. 3. 60mm tolerance baad din. 4. Load class onujayi deflection
+      check koren.</p>
+      <p>Beam span 3,600mm er beshi hole mid-span support lagbe.</p>
+  - name: inspection
+    description: |
+      <h2>Quarterly inspection checklist</h2>
+      <ul>
+        <li>Upright plumb tolerance 5mm / 3m</li>
+        <li>Beam safety pin present, sob 1,200mm e ekta</li>
+        <li>Anchor bolt torque re-check</li>
+        <li>Forklift impact guard intact</li>
+      </ul>
+paths:
+  /ping:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: OK
